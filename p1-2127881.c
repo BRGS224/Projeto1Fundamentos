@@ -29,5 +29,5 @@ unsigned int definePontoDeAcesso (int n_antenas){
     /*Como � preciso passar dois valores por par�metro transforma o ponto de acesso em bin�rio usando o operador "<<" para deixar os
     24 bits menos significativos livres ou seja, igual a zero. Depois � s� passar a dist�ncia pelo operador l�gico "|" que ir� completar
     com a dist�ncia o resultado */
-    return resultado;
+    return resultado-2;
 }
